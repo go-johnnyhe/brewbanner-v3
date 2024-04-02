@@ -6,7 +6,8 @@
   <title>Brewbanner</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel='stylesheet' href='https://unpkg.com/splitting/dist/splitting.css'>
-  <link rel="stylesheet" href="./style.css">
+  <!-- <link rel="stylesheet" href="./style.css"> -->
+  <link rel="stylesheet" href="output.css">
   <link rel="icon" type="image/x-icon" href="logo.png">
 </head>
 
@@ -21,10 +22,12 @@
     <figure class="figure"><img src="2.png" /></figure>
 
     <div class="content">
-      <header class="header">
+      <header class="header mb-3">
         <h2 class="heading">Brew up your brand<br />on our unique platform.</h2>
       </header>
-      <p class="paragraph">
+      <br/>
+      <br/>
+      <p class="paragraph pt-3">
         Brewbanner uses coffee cups to provide effective advertising solutions for companies while simulatenously
         reducing operational costs for local businesses by supplying free cups.
       </p>
@@ -34,7 +37,7 @@
   <section class="content-section" data-scroll>
     <figure class="figure"><img src="3.png" /></figure>
     <div class="content">
-      <header class="header">
+      <header class="header mb-3">
         <h2 class="heading">Sip,<br />Look, <br /> Repeat.</h2>
       </header>
       <p class="paragraph">
@@ -47,7 +50,7 @@
   <section class="content-section" data-scroll>
     <figure class="figure"><img src="5.png" /></figure>
     <div class="content">
-      <header class="header">
+      <header class="header mb-3">
         <h2 class="heading">Support us<br />in saving pets in need.</h2>
       </header>
       <p class="paragraph">
@@ -60,7 +63,7 @@
   <section class="content-section" data-scroll>
     <figure class="figure"><img src="4.png" /></figure>
     <div class="content">
-      <header class="header">
+      <header class="header mb-3">
         <h2 class="heading">Promote a cause<br />and reduce costs.</h2>
       </header>
       <p class="paragraph">
@@ -73,42 +76,119 @@
     </div>
   </section>
 
-  <section class="content-section" data-scroll>
-    <figure class="figure"><img src="6.png" /></figure>
-    <div class="content">
-      <header class="header">
-        <h2 class="heading">Connect</h2>
-      </header>
-      <p class="paragraph">
-        <br />
-        <br />
-        General inquiries:
-        info@brewbanner.com
+<!--   <section class="content-section" data-scroll> -->
+<!--     <figure class="figure"><img src="6.png" /></figure> -->
+<!--     <div class="content"> -->
+<!--       <header class="header"> -->
+<!--         <h2 class="heading">Connect</h2> -->
+<!--       </header> -->
+<!--       <p class="paragraph"> -->
+<!--         <br /> -->
+<!--         <br /> -->
+<!--         General inquiries: -->
+<!--         info@brewbanner.com -->
+<!---->
+<!--         <br /> -->
+<!--         <br /> -->
+<!--         For advertisement: -->
+<!--         advertise@brewbanner.com -->
+<!---->
+<!--         <br /> -->
+<!--         <br /> -->
+<!--         For distribution: -->
+<!--         distribute@brewbanner.com -->
+<!--         <br /> -->
+<!--         <br /> -->
+<!--         <a href="https://www.instagram.com/brewbannerllc/"><img src="instagram.png" width=24px /></a> -->
+<!--         <a class="horizontalGap" href="http://linkedin.com/company/brewbanner"><img src="icons8-linkedin-50.png" -->
+<!--             width=24px /></a> -->
+<!--       </p> -->
+<!---->
+<!--     </div> -->
+<!-- <div class="form-container"> -->
+<!--   <h3>Contact Us</h3> -->
+<!--   <form id="contact-form"> -->
+<!--     <label for="name">Name:</label> -->
+<!--     <input type="text" id="name" name="name" required> -->
+<!---->
+<!--     <label for="email">Email:</label> -->
+<!--     <input type="email" id="email" name="email" required> -->
+<!---->
+<!--     <label for="message">Message:</label> -->
+<!--     <textarea id="message" name="message" required></textarea> -->
+<!---->
+<!--     <button type="submit">Submit</button> -->
+<!--   </form> -->
+<!-- </div> -->
+<!--   </section> -->
 
-        <br />
-        <br />
-        For advertisement:
-        advertise@brewbanner.com
+<section class="content-section last-section bg-gray-100" data-scroll>
+  <figure class="figure"><img src="6.png" /></figure>
+  <div class="content p-8 max-w-4xl mx-auto">
+    <header class="header mb-8">
+      <h2 class="heading text-4xl font-bold mb-4">Connect</h2>
+    </header>
+    <div class="flex flex-col justify-between md:flex-row gap-8">
+      <div class="w-1/2 md:w-1/2">
+        <div class="grid grid-cols-1">
+          <div>
+            <p class="paragraph mb-4">
+              General inquiries:<br />
+              <a href="mailto:info@brewbanner.com" class="text-blue-600 hover:underline">info@brewbanner.com</a>
+            </p>
+            <p class="paragraph mb-4">
+              For advertisement:<br />
+              <a href="mailto:advertise@brewbanner.com" class="text-blue-600 hover:underline">advertise@brewbanner.com</a>
+            </p>
+            <p class="paragraph mb-4">
+              For distribution:<br />
+              <a href="mailto:distribute@brewbanner.com" class="text-blue-600 hover:underline">distribute@brewbanner.com</a>
+            </p>
+            <div class="flex items-center mt-8">
+              <a href="https://www.instagram.com/brewbannerllc/" class="mr-4">
+                <img src="instagram.png" alt="Instagram" class="w-8 h-8" />
+              </a>
+              <a href="http://linkedin.com/company/brewbanner">
+                <img src="icons8-linkedin-50.png" alt="LinkedIn" class="w-8 h-8" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-1/2 md:w-1/2 ml-20">
+        <div class="form-container bg-gray-40 opacity-100 shadow-md rounded-lg px-6">
+          <h3 class="text-2xl font-bold mb-4 text-white">Contact Us</h3>
+          <form id="contact-form">
+            <div class="mb-4">
+              <label for="name" class="block text-white-700 mb-2">Name:</label>
+              <!-- <input type="text" id="name" name="name" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-black" required> -->
 
-        <br />
-        <br />
-        For distribution:
-        distribute@brewbanner.com
-        <br />
-        <br />
-        <a href="https://www.instagram.com/brewbannerllc/"><img src="instagram.png" width=24px /></a>
-        <a class="horizontalGap" href="http://linkedin.com/company/brewbanner"><img src="icons8-linkedin-50.png"
-            width=24px /></a>
-      </p>
-
+<input type="text" id="name" name="name" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-black" required>
+            </div>
+            <div class="mb-4">
+              <label for="email" class="block text-white-700 mb-2">Email:</label>
+              <input type="email" id="email" name="email" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-black" required>
+            </div>
+            <div class="mb-4">
+              <label for="message" class="block text-white-700 mb-2">Message:</label>
+              <textarea id="message" name="message" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-black" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500">Submit</button>
+          </form>
+        </div>
+      </div>
     </div>
-  </section>
-
+  </div>
+</section>
   <!-- partial -->
   <script src='https://unpkg.com/scroll-out@2.2.2/dist/scroll-out.min.js'></script>
   <script src='https://unpkg.com/splitting/dist/splitting.min.js'></script>
   <script src="./script.js"></script>
 
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script>
+  emailjs.init('aA9YXj15SJU7mu_rf');
+</script>
 </body>
 
 </html>

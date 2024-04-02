@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .intro-section {
   text-align: center;
   min-height: 70vh;
@@ -78,6 +82,22 @@
 
 .horizontalGap {
   margin-left: 15px;
+}
+
+/* Styles specific to the last page */
+.last-section .figure {
+  /* position: relative; */
+  /* height: auto; */
+}
+
+.last-section .content {
+  position: relative;
+  height: auto;
+  max-width: none;
+  display: block;
+  padding: 2em;
+  font-size: 2.5vmin;
+  margin-top: -15em;
 }
 
 /* ---------------------------------- */
