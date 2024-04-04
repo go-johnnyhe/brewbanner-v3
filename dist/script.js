@@ -39,3 +39,26 @@ document.getElementById('contact-form').addEventListener('submit', function(even
       alert('Oops! Something went wrong. Please try again later.');
     });
 });
+
+// Open modal
+function openModal(modalId) {
+  document.getElementById(modalId).classList.add('modal-open');
+}
+
+// Close modal
+function closeModal(modalId) {
+  document.getElementById(modalId).classList.remove('modal-open');
+}
+
+// Handle form submissions
+document.getElementById('contact-form-1').addEventListener('submit', function(event) {
+  event.preventDefault();
+  // Handle form submission for contact form 1
+  closeModal('contact-modal-1');
+});
+
+document.getElementById('contact-form-2').addEventListener('submit', function(event) {
+  event.preventDefault();
+  // Handle form submission for contact form 2
+  closeModal('contact-modal-2');
+});

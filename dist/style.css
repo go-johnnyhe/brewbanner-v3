@@ -100,6 +100,33 @@
   margin-top: -15em;
 }
 
+.glare-effect {
+  position: relative;
+  overflow: hidden;
+}
+
+.glare-effect::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
+  transform: rotate(45deg);
+  pointer-events: none;
+  animation: glare 3s infinite;
+}
+
+@keyframes glare {
+  0% {
+    transform: rotate(45deg) translate(-150%, -150%);
+  }
+  100% {
+    transform: rotate(45deg) translate(150%, 150%);
+  }
+}
+
 /* ---------------------------------- */
 .figure {
   --scale: calc(.8 +
